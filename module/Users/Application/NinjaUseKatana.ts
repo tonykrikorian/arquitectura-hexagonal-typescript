@@ -1,6 +1,6 @@
 import { injectable, inject } from "inversify"
 import "reflect-metadata"
-import { TYPES } from "../../Shared/Domain/types";
+import { TYPES } from "../Shared/Domain/types";
 import { UseCase } from "../Domain/UseCase"
 import { Warrior } from "../Domain/Warrior"
 
