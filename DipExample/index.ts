@@ -1,7 +1,7 @@
 import { AzureFunction, Context, HttpRequest } from "@azure/functions"
-import { TYPES } from "../module/Users/Shared/Domain/types";
-import { myContainer } from "../module/Users/Shared/Infrastructure/container.config";
-import { NinjaUseCase } from '../module/Users/Application/NinjaUseKatana';
+import { TYPES } from "../module/Ninja/Shared/Domain/types";
+import { myContainer } from "../module/Ninja/Shared/Infrastructure/container.config";
+import { NinjaUseCase } from '../module/Ninja/Application/NinjaUseKatana';
 
 const httpTrigger: AzureFunction = async function (context: Context, req: HttpRequest): Promise<void> {
    
